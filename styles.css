@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.slider {
+    width: 100%;
+    text-align: center;
+
+    width: 650px;
+    height: 600px;
+
+    position: relative;
+
+    margin-bottom: 200px;
+}
+
+.slider-img {
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+    width: 600px;
+    height: 600px;
+
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.slider-buttons {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.show {
+    opacity: 1;
+}
